@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+/* font-family: 'Titillium Web', sans-serif; */
+
+/* Variaveis CSS */ /*Indentidade Visual*/
+:root{
+    --background: #000000;
+    --red: #c20000;
+    --blue: #001f70;
+    --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    --font: 'Titillium Web', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Extra Large */
+@media screen and (max-width: 1200px){
+
+}
+
+/* Large */
+@media screen and (max-width: 992px){
+
+}
+
+/* Medium */
+@media screen and (max-width: 768px){
+
+}
+
+/* Small */
+@media screen and (max-width: 576px){
+
+}
+
+/* Extra Small */
+@media screen and (max-width: 575px){
+
+}
