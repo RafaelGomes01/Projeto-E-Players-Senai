@@ -14,29 +14,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-/* Extra Large */
-@media screen and (max-width: 1200px){
+body{
+    font-size: 16px;
+    background-color: var(--background);
+    font-family: var(--font);
+}
+
+/* Cabeçalho - Header */
+.header{
+    width: 100%;
+    height: 5em; /*1em = 16px ou o font-size do elemento que se tem referencia* (rem - pega o tamanho da font-size do proprio navegador)*/
+    background-color: var(--background);
+    border: 2px solid white;
+}
+
+.header img{
+    width: 100%;
+    max-width: 21.18em;
+}
+
+.content{
+    width: 100%;
+    max-width: 75em;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header{
+    width: 100%;
+    max-width: 50em;
+}
+
+.menu-header ul{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu-header a{
+    padding: 0.9em 0.66em;
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: 0.1s;
+}
+
+.menu-header a:hover{
+    background-color: var(--red);
+}
+
+#header-bars{
+    color: white;
+    font-size: 2em;
+    display: none;
+}
+
+/* Extra Large - Até 1199px*/
+@media screen and (max-width: 74.93em){
 
 }
 
-/* Large */
-@media screen and (max-width: 992px){
+/* Large - Até 991px*/
+@media screen and (max-width: 61.93em){
 
 }
 
-/* Medium */
-@media screen and (max-width: 768px){
+/* Medium - Até 767px*/
+@media screen and (max-width: 47.93em){
 
 }
 
-/* Small */
-@media screen and (max-width: 576px){
-
-}
-
-/* Extra Small */
-@media screen and (max-width: 575px){
+/* Small - Até 576px*/
+@media screen and (max-width: 36em){
 
 }
