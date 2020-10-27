@@ -3,6 +3,7 @@
 
 /* Variaveis CSS */ /*Indentidade Visual*/
 :root{
+    --header: #1E1C21;
     --background: #000000;
     --red: #c20000;
     --blue: #001f70;
@@ -28,8 +29,7 @@ body{
 .header{
     width: 100%;
     height: 5em; /*1em = 16px ou o font-size do elemento que se tem referencia* (rem - pega o tamanho da font-size do proprio navegador)*/
-    background-color: var(--background);
-    border: 2px solid white;
+    background-color: var(--header);
 }
 
 .header img{
@@ -73,10 +73,9 @@ body{
 }
 
 #header-bars{
-    color: white;
-    font-size: 2em;
     display: none;
 }
+
 
 /* Extra Large - Até 1199px*/
 @media screen and (max-width: 74.93em){
@@ -84,7 +83,7 @@ body{
 }
 
 /* Large - Até 991px*/
-@media screen and (max-width: 61.93em){
+@media screen and (max-width: 61.93em){ 
 
 }
 
