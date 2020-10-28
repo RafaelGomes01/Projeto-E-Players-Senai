@@ -35,6 +35,7 @@ body{
 .header img{
     width: 100%;
     max-width: 21.18em;
+    display: block;
 }
 
 .content{
@@ -74,6 +75,94 @@ body{
 
 #header-bars{
     display: none;
+}
+
+/* Banner - Main */
+.banner{
+    width: 100%;
+    height: 607px;
+    background: rgb(2,0,36);
+    background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 7%, rgba(236,20,20,1) 100%);
+}
+
+.content-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-banner img{
+    width: 90%;
+}
+
+.image-banner{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.text-banner{
+    width: 40%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.text-banner h1{
+    color: white;
+    font-size: 90px;
+    font-family: var(--font);
+}
+
+.text-banner p{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.text-banner a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    padding: 10px 45px;
+    background-color: var(--red);
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+}
+
+.text-banner a:hover{
+    box-shadow: 0px 0px 64px -1px black;
+}
+
+/* Games - Section */
+.games{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-games{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.content-games img:hover{
+    opacity: 1;
+}
+
+.content-games img{
+    width: 90%;
+    opacity: 0.6;
+    transition: 0.3s;
+    min-width: 120px;
 }
 
 
