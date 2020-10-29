@@ -248,7 +248,6 @@ body{
 .later-matches{
     width: 70%;
     display: flex;
-   
 }
 
 .live-matches h2, .later-matches h2{
@@ -277,7 +276,108 @@ body{
     padding: 0 13px;
 }
 
-/*  */
+/* News - Section */
+.news{
+    width: 100%;
+    height: 68.25em;
+    background-color: #1E1C21;
+}
+
+.news h2{
+    color: white;
+    font-size: 35px;
+    margin-left: 10%;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.content-news{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+}
+
+.news-news{
+    width: 80%;
+}
+
+.content-tabela{
+    width: 20%;
+}
+
+.bloco-news{
+    width: 90%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news-bloco{
+    width: 14.81em;
+    height: 22.87em;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+}
+
+.news-bloco:hover{
+    transform: scale(1.1);
+}
+
+
+.team-tabela{
+    color: white;
+    margin-bottom: 8px;
+    padding: 10px 0px;
+    border: 5px solid rgba(255,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.team-tabela:hover{
+    border: 5px solid rgba(255,0,0,1);
+}
+
+.team-tabela p{
+    padding-top: 10px;
+}
+
+.placar-tabela{
+    width: 221px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.text-bloco{
+    color: white;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.text-bloco h3{
+    font-family: 18px;
+    text-transform: uppercase;
+}
+
+
+.image-bloco img{
+    padding: 0;
+}
+
+.tabela-news{
+    width: 14.81em;
+    height: 46.93em;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+}
+
+
 
 
 /* Extra Large - Até 1199px*/
