@@ -419,6 +419,10 @@ body{
     text-decoration: none;
 }
 
+.links-uteis-footer a:hover{
+    text-decoration: underline;
+}
+
 .mapa-content{
     display: flex;
     flex-direction: column;
@@ -428,6 +432,7 @@ body{
 .mapa-site-footer h4{
     color: white;
     padding: 5px;
+    text-decoration: underline;
 }
 
 .mapa-site-footer ul{
@@ -437,6 +442,11 @@ body{
 .mapa-site-footer a{
     color: white;
     margin: 10px;
+    transition: 0.2s;
+}
+
+.mapa-site-footer a:hover{
+    text-decoration: underline;
 }
 
 .social-medias-footer{
@@ -448,6 +458,7 @@ body{
 .social-medias-footer h4{
     color: white;
     padding: 7px;
+    text-decoration: underline;
 }
 
 .redes-content{
@@ -460,6 +471,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.links-redes img{
+    transition: 0.2s;
+}
+
+.links-redes img:hover{
+    transform: scale(1.2);
 }
 
 .line-footer{
@@ -483,6 +502,11 @@ body{
 .logo-footer img{
     width: 100%;
     max-width: 250px;
+    transition: 0.2s;
+}
+
+.logo-footer img:hover{
+    transform: scale(1.1);
 }
 
 .direitos-footer{
@@ -506,6 +530,10 @@ body{
 .buttons-footer a{
     color: white;
     padding: 10px;
+}
+
+.buttons-footer a:hover{
+    text-decoration: underline;
 }
 
 
