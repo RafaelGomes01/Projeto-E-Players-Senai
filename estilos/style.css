@@ -11,6 +11,7 @@
     --font: 'Titillium Web', sans-serif;
 }
 
+/* Resetar os valores */
 *{
     margin: 0;
     padding: 0;
@@ -19,6 +20,7 @@
     text-decoration: none;
 }
 
+/* Body */
 body{
     font-size: 16px;
     background-color: var(--background);
