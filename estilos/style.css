@@ -579,7 +579,7 @@ body{
     /* Menu Superior - Header */
     .header img{
         width: 100%;
-        max-width: 21.18em;
+        max-width: 15em;
         display: block;
     }
 
