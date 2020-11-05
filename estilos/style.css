@@ -704,7 +704,9 @@ body{
 /* Small - Até 576px*/
 @media screen and (max-width: 36em){
     /* Menu Superior - Header */
-    /* Nenhuma Modificação */
+    #header-bars{
+        font-size: 25px;
+    }
 
      /* Banner - Main */
      .banner{
