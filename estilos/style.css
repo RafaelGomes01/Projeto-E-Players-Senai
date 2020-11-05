@@ -580,6 +580,27 @@ body{
     .content-games img{
         opacity: 1;
     }
+
+    /* About - Section */
+    .about{
+        height: auto;
+    }
+
+    .back-about{
+        height: 35.5em;
+    }
+
+    .angulation-about{
+        height: 30.125em;
+    }
+
+    .text-about{
+        height: 390px;
+    }
+
+    .image-about{
+        width: 40%;
+    }
 }
 
 /* Large - Até 991px*/
@@ -639,6 +660,28 @@ body{
     /* Games - Section */
     .content-games img{
         width: 100%;
+    }
+
+    /* About - Section */
+    .angulation-about{
+        height: 24.125em;
+    }
+
+    .container-about{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-about{
+        width: 100%;
+        height: 320px;
+        margin-left: 0;
+    }
+    
+    .image-about{
+        display: none;
     }
 }
 
@@ -712,6 +755,15 @@ body{
     #counter-strike-games{
         display: none;
     }
+
+    /* About - Section */
+    .angulation-about{
+        height: 24.125em;
+    }
+
+    .text-about{
+        height: 340px;
+    }   
 }
 
 /* Small - Até 576px*/
@@ -741,4 +793,14 @@ body{
     }
 
     /* Games - Section */
+    /* Sem alterações */
+
+    /* About - Section */
+    .angulation-about{
+        height: 24.125em;
+    }
+
+    .text-about{
+        height: 385px;
+    }   
 }
