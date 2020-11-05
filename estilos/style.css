@@ -900,6 +900,14 @@ body{
     }
 
     /* Games - Section */
+    .games{
+        height: auto;
+    }
+
+    .content-games{
+        margin: 20px 0;
+    }
+
     #league-legends-games{
         display: none;
     }
