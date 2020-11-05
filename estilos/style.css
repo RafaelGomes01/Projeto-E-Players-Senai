@@ -868,21 +868,29 @@ body{
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 36em){
     /* Menu Superior - Header */
+    .content img{
+        width: 45%;
+    }
     #header-bars{
         font-size: 25px;
     }
 
      /* Banner - Main */
      .banner{
-        height: 407px;
+        height: auto;
+     }
+
+     .text-banner{
+         height: 190px;
+         margin: 40px 0;
      }
 
     .text-banner h1{
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .text-banner p{
-        font-size: 25px;
+        font-size: 16px;
     }
 
     .text-banner a{
@@ -897,11 +905,18 @@ body{
     }
 
     /* About - Section */
+
+    .about{
+        height: auto;
+    }
+
     .angulation-about{
         height: 24.125em;
     }
 
     .text-about{
         height: 385px;
-    }   
+        margin: 10px 0;
+    } 
+
 }
