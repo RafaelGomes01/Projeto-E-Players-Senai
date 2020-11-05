@@ -229,7 +229,7 @@ body{
     justify-content: center;
 }
 
-/* Matches - Section */
+/* Matches - Section*/
 .matches{
     color: white;
     width: 100%;
@@ -247,7 +247,6 @@ body{
 }
 
 .live-matches{
-    text-transform: uppercase;
     width: 30%;
     margin: 0 6%;
     display: flex;
@@ -260,6 +259,7 @@ body{
 
 .live-matches h2, .later-matches h2{
     margin-right: 20px;
+    text-transform: uppercase;
 }
 
 .teams-matches{
@@ -282,7 +282,7 @@ body{
 
 .teams-matches p, img{
     padding: 0 13px;
-}
+} 
 
 /* News - Section */
 .news{
@@ -600,6 +600,48 @@ body{
 
     .image-about{
         width: 40%;
+    }
+
+    /* Matches - Section */
+    .matches{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-matches{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .live-matches{
+        width: 368px;
+        margin: 10px 0;
+        display: block;
+    }
+
+    .later-matches{
+        width: 368px;
+        margin: 10px 0;
+        display: block;
+    }
+
+    .teams-matches{
+        margin-bottom: 10px;
+    }
+
+    .live-matches h2, .later-matches h2{
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #espacamento{
+        margin-right: 0px;
     }
 }
 
