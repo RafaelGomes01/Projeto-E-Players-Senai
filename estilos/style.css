@@ -576,6 +576,10 @@ body{
         top: 30px;
     }
 
+    /* Games - Section */
+    .content-games img{
+        opacity: 1;
+    }
 }
 
 /* Large - Até 991px*/
@@ -632,6 +636,10 @@ body{
         top: 40px;
     }
 
+    /* Games - Section */
+    .content-games img{
+        width: 100%;
+    }
 }
 
 /* Medium - Até 767px*/
@@ -699,13 +707,18 @@ body{
         padding: 5px 30px;
         top: 25px;
     }
+
+    /* Games - Section */
+    #counter-strike-games{
+        display: none;
+    }
 }
 
 /* Small - Até 576px*/
 @media screen and (max-width: 36em){
     /* Menu Superior - Header */
     #header-bars{
-        font-size: 20px;
+        font-size: 25px;
     }
 
      /* Banner - Main */
@@ -726,5 +739,6 @@ body{
         padding: 5px 30px;
         top: 20px;
     }
-     
+
+    /* Games - Section */
 }
