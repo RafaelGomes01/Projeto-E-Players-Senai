@@ -555,6 +555,27 @@ body{
     .menu-header a{
         font-size: 1.2em;
     }
+
+    /* Banner - Main */
+    
+    .image-banner img{
+        width: 100%;
+    }
+    
+    .text-banner h1{
+        font-size: 4.37em;
+    }
+    
+    .text-banner p{
+        font-size: 1.5em;
+    }
+    
+    .text-banner a{
+        font-size: 25px;
+        padding: 5px 35px;
+        top: 30px;
+    }
+
 }
 
 /* Large - Até 991px*/
@@ -572,6 +593,45 @@ body{
         padding: 0.9em 0px;
         font-size: 1em;
     }
+
+     /* Banner - Main */
+    .banner{
+        width: 100%;
+        height: 507px;
+     }
+
+    .content-banner{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-banner{
+        display: none;
+    }
+
+    .text-banner{
+        width: 600px;
+        height: 285px;
+        margin: 0px;
+    }
+
+    .text-banner h1{
+        font-size: 90px;
+    }
+
+    .text-banner p{
+        font-size: 30px;
+    }
+
+    .text-banner a{
+        font-size: 30px;
+        padding: 10px 45px;
+        top: 40px;
+    }
+
 }
 
 /* Medium - Até 767px*/
@@ -620,10 +680,49 @@ body{
     .menu-header-response a:hover{
         border: 2px solid rgb(194, 0, 0, 1);
     }
+
+     /* Banner - Main */
+     .banner{
+        height: 457px;
+     }
+
+    .text-banner h1{
+        font-size: 75px;
+    }
+
+    .text-banner p{
+        font-size: 25px;
+    }
+
+    .text-banner a{
+        font-size: 25px;
+        padding: 5px 30px;
+        top: 25px;
+    }
 }
 
 /* Small - Até 576px*/
 @media screen and (max-width: 36em){
     /* Menu Superior - Header */
     /* Nenhuma Modificação */
+
+     /* Banner - Main */
+     .banner{
+        height: auto;
+     }
+
+    .text-banner h1{
+        font-size: 70px;
+    }
+
+    .text-banner p{
+        font-size: 25px;
+    }
+
+    .text-banner a{
+        font-size: 25px;
+        padding: 5px 30px;
+        top: 25px;
+    }
+     
 }
