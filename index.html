@@ -21,9 +21,18 @@
                     <li><a href="">Cadastro/login</a></li>
                 </ul>
             </nav>
-            <a href="#" id="header-bars"><i class="fas fa-bars"></i></a> <!--Icone barras para mobile-->
+            <a href="#" id="header-bars" onclick="botaoDoMenu()"><i class="fas fa-bars"></i></a> <!--Icone barras para mobile-->
         </div>
     </header>
+    <nav class="menu-header-response" id="menu-response">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Horarios</a></li>
+            <li><a href="#">Campeonatos</a></li>
+            <li><a href="#">Resultados</a></li>
+            <li><a href="">Cadastro/login</a></li>
+        </ul>
+    </nav>
 
     <!-- Banner - Main -->
     <main class="banner">
@@ -71,7 +80,7 @@
     </section>
 
     <!-- Matches - Section -->
-    <section class="matches">
+    <!-- <section class="matches">
         <div class="content-matches">
             <div class="live-matches">
                 <h2>Ao <br>vivo</h2>
@@ -101,7 +110,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- News - Section -->
     <section class="news">
@@ -292,4 +301,15 @@
         </div>
     </footer>
 </body>
+<script>
+    function botaoDoMenu() {
+      var navMobile = document.getElementById("menu-response");
+
+      if (navMobile.style.display === "block") {
+        navMobile.style.display = "none";
+      } else {
+        navMobile.style.display = "block";
+      }
+    }
+ </script>
 </html>
