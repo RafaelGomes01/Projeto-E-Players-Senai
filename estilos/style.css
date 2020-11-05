@@ -541,8 +541,8 @@ body{
 }
 
 
-/* Extra Large - Até 1199px*/
-@media screen and (max-width: 74.93em){
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen and (max-width: 75em){
     /* Menu Superior - Header */
     .content img{
         margin-right: 2%;
@@ -614,23 +614,32 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .live-matches{
-        width: 368px;
+        width: auto;
         margin: 10px 0;
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
     .later-matches{
-        width: 368px;
+        width: auto;
         margin: 10px 0;
-        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .title-matches-live,  .title-matches-later{
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .teams-matches{
-        margin-bottom: 10px;
+        margin: 10px;
     }
 
     .live-matches h2, .later-matches h2{
@@ -645,8 +654,8 @@ body{
     }
 }
 
-/* Large - Até 991px*/
-@media screen and (max-width: 61.93em){
+/* Large devices (desktops, 992px and up)*/
+@media screen and (max-width: 62em){
     /* Menu Superior - Header */
     .header img{
         width: 35%;
@@ -725,10 +734,58 @@ body{
     .image-about{
         display: none;
     }
+    /* Matches - Section */
+    .matches{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-matches{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .live-matches{
+        width: 368px;
+        margin: 10px 0;
+        display: block;
+    }
+
+    .later-matches{
+        width: 368px;
+        margin: 10px 0;
+        display: block;
+    }
+
+    .teams-matches{
+        width: 358px;
+        margin-bottom: 10px;
+    }
+
+    .title-matches-later, .title-matches-live{
+        width: 368px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .live-matches h2, .later-matches h2{
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #espacamento{
+        margin-right: 0px;
+    }
 }
 
-/* Medium - Até 767px*/
-@media screen and (max-width: 47.93em){
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 48em){
     /* Menu Superior - Header */
     .header img{
         width: 100%;
@@ -808,7 +865,7 @@ body{
     }   
 }
 
-/* Small - Até 576px*/
+/* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 36em){
     /* Menu Superior - Header */
     #header-bars{
@@ -835,7 +892,9 @@ body{
     }
 
     /* Games - Section */
-    /* Sem alterações */
+    #league-legends-games{
+        display: none;
+    }
 
     /* About - Section */
     .angulation-about{
