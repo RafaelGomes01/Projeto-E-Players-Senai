@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lwLVG8mngr3TNFHqEv7rfJ0feNtYLfxF7Xip48ScSCpwg3lAyXJ7jnKxVdqyer6g0zSuBHTuRvDDTUe7oCSSnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rafam\\Desktop\\E-Players\\Back-end\\E-Players_AspNetCore-main\\E-Players_AspNetCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafam\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\rafam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
